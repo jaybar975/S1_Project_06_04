@@ -7,20 +7,28 @@
    Author: Justin Aybar
    Date: 11.6.18
    Filename:br_effects.css
- 
+   
+   
+   */
+/* This creates the body element with a height of 660 pixels, a moz box shadow of red blue green alpha of 0, 0, 51, 0.6 with 20 pixels, 0 pixels, 10 pixels with another red blue green alpha to 0, 0, 51, 0.6 with -20 pixels, 0 pixels, 10 pixels, webkit box shadow with a red blue green alpha of 0, 0, 51, 0.6 with 20 pixels, 0 pixels, 10 pixels with another red blue green alpha to 0, 0, 51, 0.6 with -20 pixels, 0 pixels, 10 pixels, finally the box shadow with a red blue green alpha of 0, 0, 51, 0.6 with 20 pixels, 0 pixels, 10 pixels with another red blue green alpha to 0, 0, 51, 0.6 with -20 pixels, 0 pixels, 10 pixels  */
+body {
+    height: 660px;
+    -moz-box-shadow: rgba(0, 0, 51, 0.6) 20px 0px 10px, rgba(0, 0, 51, 0.6) -20px 0px 10px;
+    -webkit-box-shadow: rgba(0, 0, 51, 0.6) 20px 0px 10px, rgba(0, 0, 51, 0.6) -20px 0px 10px;
+    box-shadow: rgba(0, 0, 51, 0.6) 20px 0px 10px, rgba(0, 0, 51, 0.6) -20px 0px 10px;
+}
 
-*/
 /* Heading text style */
+/* This creates the section element with a id called main with the heading element with a color of red blue green 0, 0, 127 and with a text shadow of the color white, 2 pixels, 2 pixels, 0 pixels, red blue green alpha 0, 0, 127, 0.9 with 5 pixels, 5 pixels and 10 pixels */
 
 section#main h1 {
     color: rgb(0, 0, 127);
-    text-shadow: white 2px 2px 0px,
-        rgba(0, 0, 127, 0.9) 5px 5px 10px;
+    text-shadow: white 2px 2px 0px, rgba(0, 0, 127, 0.9) 5px 5px 10px;
 }
 
 
 /* Main Section Styles */
-
+/* This creates the section element with a id called main with a background o linear gradient, ms linear gradient, moz linear gradient, webkit linear gradient, linear gradient to top left with a red blue green set to 51, 51, 151 with a color of white and set to 40 percent  */
 section#main {
     background: -o-linear-gradient(top left, rgb(51, 51, 151), white 40%);
     background: -ms-linear-gradient(top left, rgb(51, 51, 151), white 40%);
@@ -32,20 +40,17 @@ section#main {
 
 
 /* Box shadow styles */
-
+/* This creates the figure and the image element with a moz border radius of 25 pixels, webkit border radius 25 pixels, border radius 25 pixels, moz box shadow with a red blue green alpha set to 0, 0, 0, 0.6 with 10 pixels, 10 pixels, 15 pixels, webkit box shadow with a red blue green alpha set to 0, 0, 0, 0.6 with 10 pixels, 10 pixels, 15 pixels, finally box shadow is set with a red blue green alpha of 0, 0, 0, 0.6 with 10 pixels, 10 pixels, 15 pixels  */
 figure img {
-
     -moz-border-radius: 25px;
     -webkit-border-radius: 25px;
     border-radius: 25px;
-
     -moz-box-shadow: rgba(0, 0, 0, 0.6) 10px 10px 15px;
     -webkit-box-shadow: rgba(0, 0, 0, 0.6) 10px 10px 15px;
     box-shadow: rgba(0, 0, 0, 0.6) 10px 10px 15px;
 }
 
-
-
+/* This creates the address, aside, and the table element with a moz box shadow of the color black with 5 pixels, 5 pixels, 5 pixels, webkit box shadow of the color black with 5 pixels, 5 pixels, 5 pixels, fianlly the box shadow is set to the color black with 5 pixels, 5 pixels, 5 pixels */
 address,
 aside,
 table {
@@ -56,9 +61,8 @@ table {
 
 
 /* Rotate styles */
-
+/* This creates the navigation element eith a class called vertical with the listed element with a o tranform with a rotate of -30 degrees, moz transform with a rotate of -30 degrees, webkit trasnform with a rotate of -30 degrees, ms transform with a rotate of -30 degrees, finally the transform with a rotate of -30 degrees */
 nav.vertical li {
-
     -o-transform: rotate(-30deg);
     -moz-transform: rotate(-30deg);
     -webkit-transform: rotate(-30deg);
@@ -66,16 +70,8 @@ nav.vertical li {
     transform: rotate(-30deg);
 }
 
-/* opacity styles */
-
+/* Opacity styles */
+/* This creates the id called bkimg with a opacity of 0.25 */
 #bkimg {
     opacity: 0.25;
-}
-
-
-body {
-    height: 660px;
-    -moz-box-shadow: rgba(0, 0, 51, 0.6) 20px 0px 10px, rgba(0, 0, 51, 0.6) -20px 0px 10px;
-    -webkit-box-shadow: rgba(0, 0, 51, 0.6) 20px 0px 10px, rgba(0, 0, 51, 0.6) -20px 0px 10px;
-    box-shadow: rgba(0, 0, 51, 0.6) 20px 0px 10px, rgba(0, 0, 51, 0.6) -20px 0px 10px;
 }

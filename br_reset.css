@@ -13,13 +13,12 @@
 
 
 /* Display HTML5 structural elements as blocks */
-
+/* This creates the article, aside, figure, figcaption, footer, header, section and the navigation element with a display of block */
 article,
 aside,
 figure,
 figcaption,
 footer,
-hgroup,
 header,
 section,
 nav {
@@ -28,14 +27,14 @@ nav {
 
 
 /* Set the default page element styles */
-
+/* This creates the body element with a margin of 0 pixels and a width of 100 percent */
 body {
     margin: 0px;
     width: 100%;
 }
 
+/* This creates the body element and the * element with the font family of Verdana, Geneva, and sans-serif, a font size of 100 percent, font weight to inherit, line height of 1.2 emphemeral unit, list style is set to none, margin of 0 pixels, padding to 0 pixels, text decoration to none, and vertical align to baseline */
 body * {
-
     font-family: Verdana, Geneva, sans-serif;
     font-size: 100%;
     font-weight: inherit;
@@ -45,5 +44,4 @@ body * {
     padding: 0px;
     text-decoration: none;
     vertical-align: baseline;
-
 }

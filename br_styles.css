@@ -122,6 +122,7 @@ nav.horizontal li a {
     text-decoration: none;
 }
 
+/* This sets the navigation element with a class called horizontal with the li element and the hypertext link element with a pseudo class called hover with a color of red blue green to 230, 252, 171  */
 nav.horizontal li a:hover {
     color: rgb(230, 252, 171);
 }
@@ -129,7 +130,7 @@ nav.horizontal li a:hover {
 
 
 /* Article Styles */
-
+/* This creates the article element with the heading 1 element with a font size of 30 pixels, letter spacing of 5 pixels, font weight set to bold, and the margin is set to 10 pixels, 0 pixels, 20 pixels, 20 pixels */
 article h1 {
     font-size: 30px;
     letter-spacing: 5px;
@@ -137,6 +138,7 @@ article h1 {
     margin: 10px 0px 20px 20px;
 }
 
+/* This creates the article and the paragraph element with a float to the left, a width of 500 pixels, a margin set to 0 pixels 0 pixels 20 pixels 20 pixels with a font size of 18 pixels */
 article p {
     float: left;
     width: 500px;
@@ -207,7 +209,6 @@ table td {
     z-index: 1;
     width: 50%;
 }
-
 
 
 /* Aside styles */
