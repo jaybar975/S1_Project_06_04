@@ -1,0 +1,258 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 4
+   Case Problem 4
+   
+   Browyer Realty Layout Styles
+   Author: Justin Aybar
+   Date: 11.7.18
+	
+   Filename: br_styles.css
+
+*/
+
+/* Body styles */
+/* This sets the body element with a margin of 0 pixels and auto and with a width of 960 pixels */
+body {
+    margin: 0px auto;
+    width: 960px;
+}
+
+
+
+/* Header styles */
+/* This sets the header element to a border bottom to 1 pixel solid and the color blue */
+header {
+    border-bottom: 1px solid blue;
+    width: 960px;
+    background-color: ivory;
+}
+
+
+/* Vertical navigation list styles */
+/* This sets the navigation element with a class named vertical with a float to the left with a width of 200 pixels */
+nav.vertical {
+    float: left;
+    width: 200px;
+}
+
+/* This sets the navigation element with a class named vertical and the image element with a display of block and a margin of 5 pixels and set to auto */
+nav.vertical img {
+    display: block;
+    margin: 5px auto;
+}
+
+/* This sets navigation element with a class of vertical and with a unordered listed element with a margin left set to 10 pixels */
+nav.vertical ul {
+    margin-left: 10px;
+}
+
+/* This sets the navigation element with a class named vertical with a unordered listed and listed element with a list style type of none, font size to 20 pixels, and a margn of 20 pixels */
+nav.vertical ul li {
+    list-style-type: none;
+    font-size: 20px;
+    margin: 20px;
+}
+
+/* This sets the navigation element with a class named vertical with a unordered list, listed, and hypertext link element with a color of red blue green 51, 51, 51 */
+nav.vertical ul li a {
+    color: rgb(51, 51, 51);
+}
+
+/* This sets the navigation element */
+/* This sets the navigation element with a class called vertical with unordered list, listed, hypertext element with a pseudo class called hover with a color of red blue green 90, 127, 0 with a text decoration set to underline */
+nav.vertical ul li a:hover {
+    color: rgb(90, 127, 0);
+    text-decoration: underline;
+}
+
+
+
+/* Section Styles */
+/* This sets the section element with an id called main with a width of 740 pixels, float to the left, margin left to 15 pixels=, position relative, and the z index set to 2 */
+section#main {
+    width: 740px;
+    float: left;
+    margin-left: 15px;
+    position: relative;
+    z-index: 2;
+}
+
+/* This sets the section element to an id called center with a width called 500 pixels and float to the left */
+section#center {
+    width: 500px;
+    float: left;
+}
+
+/* This sets the section element with a id called right with a width of 180 pixels, margin left to 20 pixels, margin top to 20 pixels, and float to the left */
+section#right {
+    width: 180px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+
+/* Navigation list in section */
+/* This sets the navigation element with a class named horizontal with a background color of red blue green 0, 0, 192, with a height of 20 pixels with a width of 740 pixels, and with a clear both */
+nav.horizontal {
+    background-color: rgb(0, 0, 192);
+    height: 20px;
+    width: 740px;
+    clear: both;
+}
+
+/* This sets the navigation element with a class called horizontal and a listed element with a display of block, float to the left, line height is set to 20 pixels, text align is set to center, and the width is 25 percent  */
+nav.horizontal li {
+    display: block;
+    float: left;
+    line-height: 20px;
+    text-align: center;
+    width: 25%;
+}
+
+nav.horizontal li a {
+    /* This sets the navigation element with a class called horizontal with a color of white, font variant small caps, font size to 12 pixels, font family is set to trebuchet MS, Helatica, and sans-serif, text decoration is set to none */
+    color: white;
+    font-variant: small-caps;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+nav.horizontal li a:hover {
+    color: rgb(230, 252, 171);
+}
+
+
+
+/* Article Styles */
+
+article h1 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin: 10px 0px 20px 20px;
+}
+
+article p {
+    float: left;
+    width: 500px;
+    margin: 0px 0px 20px 20px;
+    font-size: 18px;
+}
+
+
+/* Address Styles */
+
+address {
+    width: 100%;
+    margin: 0px 0px 0px 20px;
+    font-style: normal;
+    border: 1px solid black;
+    background-color: white;
+    position: relative;
+    z-index: 3;
+}
+
+address h1 {
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+}
+
+address p {
+    font-size: 16px;
+    margin: 0px 0px 10px 10px;
+}
+
+
+/* Table Styles */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 10px 0px 0px 20px;
+    background-color: white;
+    position: relative;
+    z-index: 3;
+}
+
+table th {
+    text-align: left;
+    font-weight: normal;
+    border: 1px solid black;
+}
+
+table td {
+    text-align: right;
+    border: 1px solid black;
+}
+
+
+/* Property img style */
+
+#bkimg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 50%;
+}
+
+
+
+/* Aside styles */
+
+aside {
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    overflow: auto;
+    height: 200px;
+    border: 1px solid black;
+    background-color: white;
+    position: relative;
+    z-index: 3;
+}
+
+aside figure {
+    width: 100%;
+}
+
+aside figure img {
+    width: 90%;
+    display: block;
+    margin: 10px auto 5px;
+}
+
+aside figure figcaption {
+    font-size: 10px;
+    text-align: center;
+}
+
+/* Page footer styles */
+
+footer {
+    clear: both;
+    font-size: 10px;
+    border-top: 1px solid rgb(18, 15, 22);
+    padding-bottom: 20px;
+    padding-top: 10px;
+    word-spacing: 5px;
+    text-indent: 5px;
+}
+
+footer span {
+    float: right;
+    margin-right: 30px;
+}
