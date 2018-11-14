@@ -130,7 +130,7 @@ nav.horizontal li a:hover {
 
 
 /* Article Styles */
-/* This creates the article element with the heading 1 element with a font size of 30 pixels, letter spacing of 5 pixels, font weight set to bold, and the margin is set to 10 pixels, 0 pixels, 20 pixels, 20 pixels */
+/* This sets the article element with the heading 1 element with a font size of 30 pixels, letter spacing of 5 pixels, font weight set to bold, and the margin is set to 10 pixels, 0 pixels, 20 pixels, 20 pixels */
 article h1 {
     font-size: 30px;
     letter-spacing: 5px;
@@ -138,7 +138,7 @@ article h1 {
     margin: 10px 0px 20px 20px;
 }
 
-/* This creates the article and the paragraph element with a float to the left, a width of 500 pixels, a margin set to 0 pixels 0 pixels 20 pixels 20 pixels with a font size of 18 pixels */
+/* This sets the article and the paragraph element with a float to the left, a width of 500 pixels, a margin set to 0 pixels 0 pixels 20 pixels 20 pixels with a font size of 18 pixels */
 article p {
     float: left;
     width: 500px;
@@ -148,7 +148,7 @@ article p {
 
 
 /* Address Styles */
-
+/* This sets the address element with a width of 100 percent, a margin of 0 pixels, 0 pixels, 0 pixels, and 20 pixels, font style to normal, border is set to 1 pixel solid and the color black, background color to the color white, the position is set to relative, and the z index is set to 3 */
 address {
     width: 100%;
     margin: 0px 0px 0px 20px;
@@ -159,6 +159,7 @@ address {
     z-index: 3;
 }
 
+/* This sets the address element with the heading 1 element with a font size of 16 pixels, letter spacing to 3 pixels, a margin to 0 pixels, text align to center, color to white, background color to the color blue, the padding is set to 5 pixels and 0 pixels, margin bottom is set to 10 pixels */
 address h1 {
     font-size: 16px;
     letter-spacing: 3px;
@@ -170,6 +171,7 @@ address h1 {
     margin-bottom: 10px;
 }
 
+/* This sets the address and the paragraph element with a font size of 16 pixels, margin to 0 pixels, 0 pixels, 10 pixels, and 10 pixels */
 address p {
     font-size: 16px;
     margin: 0px 0px 10px 10px;
@@ -177,7 +179,7 @@ address p {
 
 
 /* Table Styles */
-
+/* This sets the table element with a width of 100 percent, a border collapse to collapse, the border is set to 1 pixel, solid, and the color black, the margin is set to 10 pixels, 0 pixels, 0 pixels, and 20 pixels, the background color is set to the color white, the position is set to relative, and the z index is set to 3 */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -188,12 +190,14 @@ table {
     z-index: 3;
 }
 
+/* This sets the table and the th element with a text align to the left, font weight is set to normal and the border is set to 1 pixel, solid, and the color black */
 table th {
     text-align: left;
     font-weight: normal;
     border: 1px solid black;
 }
 
+/* This sets the table and td element to a text align to the right and the border is set to 1 pixel, solid, and the color black */
 table td {
     text-align: right;
     border: 1px solid black;
@@ -201,7 +205,7 @@ table td {
 
 
 /* Property img style */
-
+/* This sets the id bkimg to a position of absoulute, the top and left is set to 0 pixels, the z index is set to 1, and the width is set to 50 percent */
 #bkimg {
     position: absolute;
     top: 0px;
@@ -212,7 +216,7 @@ table td {
 
 
 /* Aside styles */
-
+/* This sets the aside element with a width of 100 percent, the margin left and bottom are set to 20 pixels, the margin top is set to 10 pixels, the overflow is auto, the height is 200 pixels, the borer is set to 1 pixel solid and the color black, the background color is set to the color white, the position is relative, and fianlly the z index is set to 3 */
 aside {
     width: 100%;
     margin-left: 20px;
@@ -226,23 +230,26 @@ aside {
     z-index: 3;
 }
 
+/* This sets the aside and the figure element with a width of 100 percent */
 aside figure {
     width: 100%;
 }
 
+/* This sets the aside, figure, and image element with a width of 90 percent, a display of block, and a margin is set to 10 pixels auto and 5 pixels */
 aside figure img {
     width: 90%;
     display: block;
     margin: 10px auto 5px;
 }
 
+/* This sets the aside, figure, and the figcaption with a font size of 10 pixels and the text align is set to the center */
 aside figure figcaption {
     font-size: 10px;
     text-align: center;
 }
 
 /* Page footer styles */
-
+/* This set the footer element with a clear both, font size to 10 pixels, border top to 1 pixel, solid and a red blue green is set to 18, 15, 22 the padding bottom is set to 20 pixels, padding top is 10 pixels, word spacing is set to 5 pixels, and the text indent is set to 5 pixels */
 footer {
     clear: both;
     font-size: 10px;
@@ -253,6 +260,7 @@ footer {
     text-indent: 5px;
 }
 
+/* This sets the footer and span element with a float to the right and the margin right is set to 30 pixels */
 footer span {
     float: right;
     margin-right: 30px;
